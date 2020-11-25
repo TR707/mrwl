@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+h3 {
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+}
+ p {
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+}	 
+section {
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+}
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 20px;
+}
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: rgb(0,80,160);
+}
+label {
+	display: block;
+}
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+input:disabled {
+	color: #ccc;
+}
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+button:focus {
+	border-color: #666;
+}
+.b2 {
+	background: white;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	height: 30px;
+}
+.b2:hover {
+	background: white;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	height: 30px;
+}
+.b3 {
+	background: white;
+	font-size: 13px;
+	color: black;
+	border: 1px solid gray;
+	height: 30px;	
+}
+.b3:hover {
+	background: white;
+	font-size: 13px;
+	color: black;
+	border: 1px solid gray;	
+	height: 30px;
+}
+@keyframes fadeIn { 
+		from { opacity: 0; } 
+	}
+.breaker01 {
+	animation: fadeIn 3s infinite alternate;
+	animation-delay: 0s;
+	margin-left: 22%;
+}  
+.breaker02 {
+	animation: fadeIn 3s infinite alternate;
+	animation-delay: 1s;
+} 
+.breaker03 {
+	animation: fadeIn 3s infinite alternate;
+	animation-delay: 2s;
+}
+.breaker04 {
+	animation: fadeIn 3s infinite alternate;
+	margin-right: 22%;
+	animation-delay: 3s;
+}
+.breakDance {
+	background-color: white;
+	margin-top: 50px;
+    display: flex;
+	justify-content: space-between;
+	height: 140px;
+}
