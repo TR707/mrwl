@@ -7,12 +7,17 @@ const multer  = require('multer');
 const mimeParser = multer();
 app.use(cors());
 
+//const mongoURL = 'mongodb://localhost:27017/mrwldb';
 const MongoClient = require('mongodb').MongoClient;
-const mongoURL = 'mongodb://localhost:27017/mrwldb';
+//  para probar db en local, comentar siguientes 3 líneas y descomentar la 10
+const password = 'R0tt3rdam213';
+const defaultDBname = 'mrwldb';
+const mongoURL = `mongodb+srv://909:${password}@mrwl.qfxbv.mongodb.net/${defaultDBname}?retryWrites=true&w=majority`;
+//
 const collectionName = 'suscriptores';
 const collectionName2 = 'sugerencias';
 var db, colSubscriptions, colSuggestions;
-MongoClient.connect(mongoURL)
+MongoClient.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(
      client => {
       db = client.db();
