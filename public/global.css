@@ -8,27 +8,27 @@ html, body {
 }
 .blue {
 	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: 30px;
+	font-size: 4.5vw;
 	font-weight: bold;
 	color: blue;
 	text-align: center;
 }
  p {
 	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: 20px;
+	font-size: 4.5vw;
 	color: black;
 	text-align: left;
 }	 
 section {
 	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: 20px;
+	font-size: 4.5vw;
 	color: black;
 	text-align: left;
 }
 .adapta {
 	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
 	              Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: 10vw;
+	font-size: 4.5vw;
 	color: black;
 	text-align: left;
 	margin-bottom: 30px;
@@ -40,7 +40,7 @@ body {
 	box-sizing: border-box;
 	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
 	             Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: 20px;
+	font-size: 4.5vw;
 }
 a {
 	color: rgb(0,100,200);
@@ -58,7 +58,7 @@ label {
 }
 input, select, textarea {
 	font-family: inherit;
-	font-size: inherit;
+	font-size: 4.5vw;
 	-webkit-padding: 0.4em 0;
 	padding: 0.4em;
 	margin: 0 0 0.5em 0;
@@ -71,28 +71,28 @@ input:disabled {
 }
 .b2 {
 	background: white;
-	font-size: 15px;
+	font-size: 4.5vw;
 	color: black;
 	text-align: center;
 	height: 30px;
 }
 .b2:hover {
 	background: white;
-	font-size: 15px;
+	font-size: 4.5vw;
 	color: black;
 	text-align: center;
 	height: 30px;
 }
 .b3 {
 	background: white;
-	font-size: 13px;
+	font-size: 4.5vw;
 	color: black;
 	border: 1px solid gray;
 	height: 30px;	
 }
 .b3:hover {
 	background: white;
-	font-size: 13px;
+	font-size: 4.5vw;
 	color: black;
 	border: 1px solid gray;	
 	height: 30px;
