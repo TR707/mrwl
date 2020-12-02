@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');.loco.svelte-1bgg24g{margin-top:40px;font-family:'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;font-size:5vw;text-decoration:none}
-img.svelte-y2c4kr{width:250px;height:375px;border-radius:5px;transition:width 0.1s, height 0.1s;display:block;margin:0px auto}img.svelte-y2c4kr:hover{width:250px;height:375px}
-img.svelte-7mk1wf{width:250px;height:375px;border-radius:5px;transition:width 0.1s, height 0.1s;display:block;margin:0px auto}img.svelte-7mk1wf:hover{width:250px;height:375px}
-footer.svelte-1dyvd7e{padding:40px;text-align:center}.copyright.svelte-1dyvd7e{color:#aaa;font-size:4.5vw;display:inline-block;padding:20px;border-top:1px solid #ddd;font-family:'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
+footer.svelte-d9vkao{padding:40px;text-align:center}.copyright.svelte-d9vkao{color:#aaa;display:inline-block;padding:20px;border-top:1px solid #ddd;font-family:'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
 	             Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif}
-h1.svelte-s7q0av{font-family:'Boogaloo', cursive;font-size:11vw;font-weight:lighter;margin-top:60px;margin-bottom:30px;color:black;text-align:center}
-form.svelte-6jylcp{margin:0 auto;text-align:center}.form-field.svelte-6jylcp{margin:18px auto;font-family:'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-                      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif}input.svelte-6jylcp{width:60vw;height:10vw;font-size:4.5vw;border-radius:6px;font-family:'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-                      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif}label.svelte-6jylcp{margin:10px auto;text-align:left}.error.svelte-6jylcp{font-weight:bold;font-size:4.5vw;color:#d91b42}
-form.svelte-1bylzmq{margin:0 auto;text-align:center;color:black}.form-field.svelte-1bylzmq{margin:18px auto;font-family:'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-                      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif}input.svelte-1bylzmq{width:60vw;height:10vw;border-radius:6px;font-size:4.5vw}label.svelte-1bylzmq{margin:10px auto;text-align:left;color:black}.error.svelte-1bylzmq{font-weight:bold;font-size:4.5vw;color:#d91b42}
-button.svelte-vs3c2k{width:30vw;height:11vw;border:0;cursor:pointer;border-radius:6px;padding:8px 12px;font-family:'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-                      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;box-shadow:1px 2px 3px rgba(0,0,0,0.2);font-size:4.5vw}.primary.svelte-vs3c2k{background:gold;color:black;border:2px solid black}.secondary.svelte-vs3c2k{background:gold;color:black;border:2px solid black}.flat.svelte-vs3c2k{box-shadow:none}.primary.inverse.svelte-vs3c2k{color:gold;background:black;border:2px solid black}.secondary.inverse.svelte-vs3c2k{color:gold;background:black;border:2px solid black}
-.card.svelte-12uzmkk{background:#fff;padding:20px;border-radius:6px;box-shadow:0px 2px 4px rgba(0,0,0,0.1)}
+h1.svelte-e7o9mj{font-family:'Boogaloo', cursive;font-weight:lighter;margin-top:60px;margin-bottom:30px;color:black;text-align:center}@media screen and (min-width: 600px){h1.svelte-e7o9mj{font-size:11vw}}@media screen and (max-width: 600px){h1.svelte-e7o9mj{font-size:16vw}}
+.primary.svelte-1hie2i7,.secondary.svelte-1hie2i7{background:gold;color:black;border:2px solid black;border-radius:6px}.flat.svelte-1hie2i7{box-shadow:none}.primary.inverse.svelte-1hie2i7,.secondary.inverse.svelte-1hie2i7{color:gold;background:black;border:2px solid black;border-radius:6px}
+.card.svelte-95hsns{background:#fff;padding:20px;border-radius:6px;box-shadow:0px 2px 4px rgba(0,0,0,0.1)}
 .tabs.svelte-1pbpy0s{margin-bottom:40px}ul.svelte-1pbpy0s{display:flex;justify-content:center;padding:0;list-style-type:none}li.svelte-1pbpy0s{margin:0 16px;font-size:4.5vw;color:black;cursor:pointer}.active.svelte-1pbpy0s{color:blue;border-bottom:2px blue;padding-bottom:8px}
 
 /*# sourceMappingURL=bundle.css.map */
