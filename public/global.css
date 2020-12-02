@@ -85,7 +85,7 @@ input:disabled {
   }
 
 @media screen and (min-width: 600px) {
-	p, ul, li, section, body, label, footer, select, text, form, textarea, 
+	ul, li, section, body, label, footer, select, text, form, textarea, 
 	.form-field, .email, .adapta, .blue, .b2, .b2:hover, .b3, .b3:hover, .loco, 
 	.container, .active, .copyright, .error, .primary, .secondary, .primary.inverse, 
 	.secondary-inverse, .flat  {
@@ -96,12 +96,29 @@ input:disabled {
   }
   
   @media screen and (max-width: 600px) {
-	p, ul, li, section, body, label, footer, select, text, form, textarea, 
+	ul, li, section, body, label, footer, select, text, form, textarea, 
 	.form-field, .email, .adapta, .blue, .b2, .b2:hover, .b3, .b3:hover, .loco, 
 	.container, .active, .copyright, .error, .secondary, .flat {
 		font-size: 5vw;
 		font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
 		Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;  
+	}
+  }
+
+  @media screen and (min-width: 600px) {
+	p {
+	  font-size: 2vw;
+	  font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
+	  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;  
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	p {
+	  font-size: 7vw;
+	  font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
+	  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;  
+
 	}
   }
 
