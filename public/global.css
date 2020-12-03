@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
 
 html, body {
 	position: relative;
@@ -8,19 +6,28 @@ html, body {
 	height: 100%;
 }
 .blue {
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 4.5vw;
 	font-weight: bold;
 	color: blue;
 	text-align: center;
 }
  p {
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 4.5vw;
 	color: black;
 	text-align: left;
 }	 
 section {
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 4.5vw;
 	color: black;
 	text-align: left;
 }
 .adapta {
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
+	              Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 4.5vw;
 	color: black;
 	text-align: left;
 	margin-bottom: 30px;
@@ -30,27 +37,27 @@ body {
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
+	font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
+	             Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 4.5vw;
 }
-form{
-	margin: 0 auto;
-	text-align: center;     
-	color: black;  
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
 }
-.form-field{
-	margin: 18px auto;
+
+a:hover {
+	text-decoration: underline;
 }
-label{
-	margin: 10px auto;
-	text-align:left;
+a:visited {
+	color: rgb(0,80,160);
 }
-.error{
-	font-weight: bold;
-	color: #d91b42;
-} 
 label {
 	display: block;
 }
 input, select, textarea {
+	font-family: inherit;
+	font-size: 4.5vw;
 	-webkit-padding: 0.4em 0;
 	padding: 0.4em;
 	margin: 0 0 0.5em 0;
@@ -61,142 +68,61 @@ input, select, textarea {
 input:disabled {
 	color: #ccc;
 }
-.b2, .b3 {
+.b2 {
 	background: white;
+	font-size: 4.5vw;
 	color: black;
 	text-align: center;
 	height: 30px;
 }
-.b2:hover, .b3:hover {
+.b2:hover {
 	background: white;
+	font-size: 4.5vw;
 	color: black;
 	text-align: center;
 	height: 30px;
 }
-
-@media screen and (max-width: 600px) {
-	p/* , ul, li, section, body, label, footer, select, text, form, textarea, 
-	.form-field, .email, .adapta, .blue, .b2, .b2:hover, .b3, .b3:hover, .loco, 
-	.container, .active, .copyright, .error, .secondary, .flat  */{
-		font-size: 5vw;
-		font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-		Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;  
-	}
-  }
-
-@media screen and (min-width: 600px) {
-	p/* , ul, li, section, body, label, footer, select, text, form, textarea, 
-	.form-field, .email, .adapta, .blue, .b2, .b2:hover, .b3, .b3:hover, .loco, 
-	.container, .active, .copyright, .error, .primary, .secondary, .primary.inverse, 
-	.secondary-inverse, .flat   */{
-	  font-size: 2vw;
-	  font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-	  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;  
-	}
-  }
-  
-  @media screen and (max-width: 600px) {
-	ul, li, section, body, label, footer, select, text, form, textarea, 
-	.form-field, .email, .adapta, .blue, .b2, .b2:hover, .b3, .b3:hover, .loco, 
-	.container, .active, .copyright, .error, .secondary, .flat {
-		font-size: 5vw;
-		font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-		Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;  
-	}
-  }
-
-  @media screen and (min-width: 600px) {
-	p {
-	  font-size: 2vw;
-	  font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-	  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;  
-	}
-  }
-  
-  @media screen and (max-width: 600px) {
-	p {
-	  font-size: 7vw;
-	  font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-	  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;  
-
-	}
-  }
-
-  @media screen and (min-width: 600px) {
-    button {
-        width: 13vw;
-        height: 4vw;
-        border:0;
-        cursor: pointer;
-        border-radius: 6px;
-        padding: 8px 12px;
-        font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-                      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-		box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
-    } 
-  }
-  
-  @media screen and (max-width: 600px) {
-    button {
-        width: 33vw;
-        height: 11vw;
-        border:0;
-        cursor: pointer;
-        border-radius: 6px;
-        padding: 8px 12px;
-        font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-                      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-        box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
-    } 
-  }
-
-  @media screen and (min-width: 600px) {
-	input{
-		width: 40vw;
-		height: 4vw;
-		border-radius:6px;   
-		font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-					  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	}
-  }
-
-  @media screen and (max-width: 600px) {
-	input{
-		width: 60vw;
-		height: 10vw;
-		border-radius:6px;   
-		font-family: 'Share Tech Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", 
-					  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	}
-  }
-
-
-  
-  @media screen and (min-width: 600px) {
-	img {
-		width: 200px;
-		height: 300px;
-		border-radius: 5px;
-		transition: width 0.1s, height 0.1s;
-		display: block;
-		margin: 0px auto;
-	   }
-  }
-
-  @media screen and (max-width: 600px) {
-	img {
-		width: 220px;
-		height: 330px;
-		border-radius: 5px;
-		transition: width 0.1s, height 0.1s;
-		display: block;
-		margin: 0px auto;
-	   }
+.b3 {
+	background: white;
+	font-size: 4.5vw;
+	color: black;
+	border: 1px solid gray;
+	height: 30px;	
 }
-
-  img:hover {
-	 width: 250px;
-	 height: 375px;
-   }
-
+.b3:hover {
+	background: white;
+	font-size: 4.5vw;
+	color: black;
+	border: 1px solid gray;	
+	height: 30px;
+}
+@keyframes fadeIn { 
+		from { opacity: 0; } 
+	}
+.breaker01 {
+	animation: fadeIn 3s infinite alternate;
+	animation-delay: 0s;
+	
+}  
+.breaker02 {
+	animation: fadeIn 3s infinite alternate;
+	animation-delay: 1s;
+} 
+.breaker03 {
+	animation: fadeIn 3s infinite alternate;
+	animation-delay: 2s;
+}
+.breaker04 {
+	animation: fadeIn 3s infinite alternate;
+	animation-delay: 3s;
+}
+.breakDance {
+	background-color: white;
+	margin: 0 auto;
+    display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 50vw;
+}
    
