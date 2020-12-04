@@ -99,11 +99,11 @@ input:disabled {
 }
 
 @media only screen and (max-width: 600px) {
-p {font-size: 15px;
+p {font-size: 22px;
 }
-.blue {font-size: 16px;
+.blue {font-size: 23px;
 }
-.loco {font-size: 17px;
+.loco {font-size: 23px;
 }
 }
 
