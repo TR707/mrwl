@@ -69,33 +69,36 @@ input:disabled {
 }
 
 @keyframes fadeIn { 
-		from { opacity: 0; } 
-	}
+	from { opacity: 0; } 
+}
+.breaker01, .breaker02, .breaker03, .breaker04  {
+	animation: fadeIn 3s infinite alternate;		
+}
 .breaker01 {
-	animation: fadeIn 3s infinite alternate;
-	animation-delay: 0s;
-	
+animation-delay: 0s;	
 }  
 .breaker02 {
-	animation: fadeIn 3s infinite alternate;
-	animation-delay: 1s;
+animation-delay: 1s;
 } 
 .breaker03 {
-	animation: fadeIn 3s infinite alternate;
-	animation-delay: 2s;
+animation-delay: 2s;
 }
 .breaker04 {
-	animation: fadeIn 3s infinite alternate;
-	animation-delay: 3s;
+animation-delay: 3s;
 }
 .breakDance {
-	background-color: white;
-	margin: 0 auto;
-    display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	width: 50vw;
+background-color: white;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+width: 50vw;
+}
+@media only screen and (max-width: 600px) {
+.breaker01, .breaker02, .breaker03, .breaker04  {
+	width: 20vw;
+}
 }
 
 @media only screen and (max-width: 600px) {
